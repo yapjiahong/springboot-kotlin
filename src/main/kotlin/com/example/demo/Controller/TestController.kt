@@ -7,6 +7,7 @@ import reactor.core.publisher.Mono
 @RestController
 class TestController {
 
+
     @GetMapping("/health")
     fun health()  = Mono.just("Tested")
 
