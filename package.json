@@ -1,0 +1,10 @@
+{
+  "husky": {
+    "hooks": {
+      "pre-push": "bash scripts/pre_commit_check.sh"
+    }
+  },
+  "devDependencies": {
+    "husky": "^2.7.0"
+  }
+}
